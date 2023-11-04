@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/mulaustadgarage/static/css/main.098713f5.css",
+    "main.js": "/mulaustadgarage/static/js/main.b152ccb3.js",
+    "static/js/787.262ef7b0.chunk.js": "/mulaustadgarage/static/js/787.262ef7b0.chunk.js",
+    "static/media/s2.png": "/mulaustadgarage/static/media/s2.79943c9f28d3304798c8.png",
+    "static/media/programmer.png": "/mulaustadgarage/static/media/programmer.c66eea6b1525f5569e56.png",
+    "static/media/s1.png": "/mulaustadgarage/static/media/s1.5eb1956499e47e6b1804.png",
+    "static/media/insta.webp": "/mulaustadgarage/static/media/insta.eee5ef3f2824e5990fc3.webp",
+    "static/media/civic.png": "/mulaustadgarage/static/media/civic.b4348e7ed8aaab24bf60.png",
+    "static/media/s3.jpg": "/mulaustadgarage/static/media/s3.87be796c38bfbf607e4b.jpg",
+    "static/media/s4.jpg": "/mulaustadgarage/static/media/s4.39e70267cb080e66b5dc.jpg",
+    "static/media/profile.jpg": "/mulaustadgarage/static/media/profile.c5410d6aa5daacf74d77.jpg",
+    "static/media/m1.png": "/mulaustadgarage/static/media/m1.ad7746a19c7e55d299ed.png",
+    "static/media/m5.png": "/mulaustadgarage/static/media/m5.793e3f779d99d0fea963.png",
+    "static/media/location.png": "/mulaustadgarage/static/media/location.73948584a92a3fc87a6f.png",
+    "static/media/m3.png": "/mulaustadgarage/static/media/m3.0d416347a2cbda34a53f.png",
+    "static/media/whatsapp_.png": "/mulaustadgarage/static/media/whatsapp_.d026940870fb334920b7.png",
+    "static/media/m2.png": "/mulaustadgarage/static/media/m2.fa5b10b55ff86c582d2e.png",
+    "static/media/m4.png": "/mulaustadgarage/static/media/m4.377a72365d87c47a4910.png",
+    "static/media/mail.png": "/mulaustadgarage/static/media/mail.1354a7242c948389fbaf.png",
+    "static/media/fb.png": "/mulaustadgarage/static/media/fb.f09b3f91518a7a1d1ad8.png",
+    "static/media/linkedIn.png": "/mulaustadgarage/static/media/linkedIn.6892b3ae328c7a1e055f.png",
+    "static/media/logo.svg": "/mulaustadgarage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mulaustadgarage/index.html",
+    "main.098713f5.css.map": "/mulaustadgarage/static/css/main.098713f5.css.map",
+    "main.b152ccb3.js.map": "/mulaustadgarage/static/js/main.b152ccb3.js.map",
+    "787.262ef7b0.chunk.js.map": "/mulaustadgarage/static/js/787.262ef7b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098713f5.css",
+    "static/js/main.b152ccb3.js"
+  ]
+}
