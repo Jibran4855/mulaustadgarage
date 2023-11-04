@@ -1,0 +1,242 @@
+.Home-class{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5rem 6rem;
+    justify-content: space-evenly;
+    /* background-color: #000; */
+    
+    background: linear-gradient(45deg, rgb(12, 12, 12), midnightblue);
+    color: white;
+}
+
+.Home-class .top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.profile-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.profile-desc h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: left;
+    font-family: Poppins,sans-serif
+}
+
+.profile-desc p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: justify;
+    font-family: Poppins,sans-serif
+}
+
+.profile-desc p span{
+
+    color: black;
+    background-color: white;
+}
+
+.profile-pic{
+width: 50%;
+}
+
+.Home-class .bottom{
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.Home-class .bottom .left{
+    position: relative;
+    display: flex;
+    gap: 3rem;
+}
+
+.Home-class .bottom .right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Home-class .bottom .left h2{
+   
+    font-family: Poppins,sans-serif
+    
+}
+
+.Home-class .bottom .left .borderright{
+    display: flex;
+    border-right: 5px solid white;
+    text-align: right;
+    
+}
+
+/* 
+Media Queries */
+
+@media (max-width: 320px) {
+
+    .Home-class{
+        padding: 2rem 2rem;
+    }
+
+    .Home-class .top{
+        flex-direction: column-reverse;
+    }
+    .Home-class .top .profile-desc{
+        width: 100%;
+    }
+    
+    .Home-class .top .profile-desc h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    }
+
+    .Home-class .top .profile-pic{
+        width: 100%;
+    }
+
+    .Home-class .top .profile-pic img {
+        width: 280px;
+    height: 250px;
+    margin-top: 20px;
+    }
+
+    .Home-class .bottom{
+        gap:1rem
+    }
+    .Home-class .bottom .left .borderright {
+        display: none;
+    }
+  }
+
+  
+@media (min-width: 321px) and (max-width: 375px) {
+    /* … */
+    .Home-class{
+        padding: 2rem 2rem;
+    }
+
+    .Home-class .top{
+        flex-direction: column-reverse;
+    }
+    .Home-class .top .profile-desc{
+        width: 100%;
+    }
+    
+    .Home-class .top .profile-desc h1{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    }
+    .Home-class .top .profile-desc p{
+        font-size: 1.5rem;
+        
+        }
+    .Home-class .top .profile-pic{
+        width: 100%;
+    }
+
+    .Home-class .top .profile-pic img {
+        width: 300px;
+        height: 270px;
+        margin-top: 20px;
+    }
+    
+    .Home-class .bottom{
+        gap:1rem
+    }
+    .Home-class .bottom .left .borderright {
+        display: none;
+    }
+  }
+
+  
+@media (min-width: 376px) and (max-width: 425px) {
+    /* … */
+    .Home-class{
+        padding: 2rem 2rem;
+    }
+
+    .Home-class .top{
+        flex-direction: column-reverse;
+    }
+    .Home-class .top .profile-desc{
+        width: 100%;
+    }
+    
+    .Home-class .top .profile-desc h1{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    }
+    .Home-class .top .profile-desc p{
+        font-size: 1.5rem;
+        
+        }
+    .Home-class .top .profile-pic{
+        width: 100%;
+    }
+
+    .Home-class .top .profile-pic img {
+        width: 300px;
+        height: 270px;
+        margin-top: 20px;
+    }
+    
+    .Home-class .bottom{
+        gap:1rem
+    }
+    .Home-class .bottom .left .borderright {
+        display: none;
+    }
+  }
+
+  
+@media (min-width: 426px) and (max-width: 768px) {
+    /* … */
+    .Home-class .top .profile-pic img {
+        width: 374px;
+        height: 325px;
+    }
+    .Home-class .top .profile-desc h1{
+        font-size: 2rem;
+        line-height: 2rem;
+        /* text-align: center; */
+        }
+        .Home-class .top .profile-desc p{
+            font-size: 1.5rem;
+            
+            }
+            .Home-class .bottom{
+                gap:1rem
+            }
+            .Home-class .bottom .left .borderright {
+                display: none;
+            }
+  }
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* … */
+    .Home-class .top .profile-desc p{
+        font-size: 1.5rem;
+        
+        }
+  }
+  
+@media (min-width: 1025px) {
+    /* … */
+  }
