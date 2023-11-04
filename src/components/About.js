@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/About.css";
-import programmer from "../assets/images/profile.jpg";
+import programmer from "../assets/images/p.jpg";
 
 const About = (props) => {
   return (
