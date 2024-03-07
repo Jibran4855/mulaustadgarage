@@ -9,6 +9,7 @@ import portfolio2 from "../assets/images/s4.jpg";
 const Portfolio = (props) => {
   const [websiteDetails, setWebsiteDetail] = useState([
     {
+      id: 1,
       name: "Electric and Mechanic Services",
       paragraph:
         "An Auto Mechanic fixes vehicles and replaces their parts for customers. Their duties include repairing the vehicle's mechanical components, diagnosing problems with cars/ trucks and performing maintenance work on them as well.",
@@ -19,6 +20,7 @@ const Portfolio = (props) => {
       row: "row",
     },
     {
+      id: 2,
       name: "Hybrid Battery Repairing",
       paragraph:
         "Hybrid battery reconditioning is restoring a hybrid battery&#39;s performance to its original state after it has been damaged or degraded over time due to wear and tear. You can do this by replacing degraded cells with new ones, recharging the battery pack, or resetting the BMS (battery management system).",
@@ -29,6 +31,7 @@ const Portfolio = (props) => {
       row: "row-reverse",
     },
     {
+      id: 3,
       name: "AC Services & Gas Charging",
       paragraph:
         "Gas charging is an essential maintenance procedure for your air conditioner that helps you optimise its cooling performance. This involves adding or replenishing refrigerant gas in the AC system to ensure efficient heat exchange and proper cooling.",
@@ -39,6 +42,7 @@ const Portfolio = (props) => {
       row: "row",
     },
     {
+      id: 4,
       name: "Computerized Tuning",
       paragraph:
         "Car tuning is the modification of a car to optimise it for a different set of performance requirements from those it was originally designed to meet. Most commonly this is higher engine performance and dynamic handling characteristics but cars may also be altered to provide better fuel economy, or smoother response.",
