@@ -44,8 +44,8 @@ const Contact = () => {
           <h2>Don't be shy! Hit me up! 👇</h2>
         </div>
         <div className="bottom">
-          {contactDetails.map((itm) => (
-            <div className="subbottom">
+          {contactDetails.map((itm, index) => (
+            <div key={index} className="subbottom">
               <a href="#">
                 <div className="left">
                   <img src={itm.img} />
