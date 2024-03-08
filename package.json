@@ -38,7 +38,7 @@
 
     "start": "react-scripts start",
 
-    "build": "CI=false react-scripts build",
+    "build": "cross-env CI=false react-scripts build",
 
     "test": "react-scripts test",
 
@@ -84,7 +84,9 @@
 
   "devDependencies": {
 
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+
+    "cross-env": "^7.0.3"
 
   }
 
